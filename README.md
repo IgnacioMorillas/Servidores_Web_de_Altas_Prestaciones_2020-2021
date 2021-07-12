@@ -16,12 +16,9 @@ Asignatura cursada en la Universidad de Granada periodo 2020-2021 en la que conf
 
 ## Prácticas
 ### Practica 1
-En esta práctica el objetivo es configurar las máquinas virtuales (al menos dos) para
-trabajar en prácticas posteriores, asegurando la conectividad entre dichas máquinas.
-Como resultado de la práctica 1 se mostrarán dos máquinas funcionando al profesor
-(accesos con curl para solicitar páginas web sencillas, acceso por SSH entre ambas
-máquinas, así como configuraciones de red).
+En esta práctica el objetivo es configurar las máquinas virtuales (al menos dos) para trabajar en prácticas posteriores, asegurando la conectividad entre dichas máquinas. Como resultado de la práctica 1 se mostrarán dos máquinas funcionando al profesor (accesos con curl para solicitar páginas web sencillas, acceso por SSH entre ambas máquinas, así como configuraciones de red).
 Específicamente, hay que llevar a cabo las siguientes tareas:
+
     1. acceder por ssh de una máquina a otra
     2. acceder mediante la herramienta curl desde una máquina a la otra
     3. mostrar configuraciones de red y opciones de netplan
@@ -31,12 +28,11 @@ En esta práctica el objetivo es configurar las máquinas virtuales para trabaja
 espejo, consiguiendo que una máquina secundaria mantenga siempre actualizada la
 información que hay en la máquina servidora principal.
 
-Hay que llevar a cabo las siguientes tareas básicas:
-1. probar el funcionamiento de la copia de archivos por ssh
-2. clonado de una carpeta entre las dos máquinas
-3. configuración de ssh para acceder sin que solicite contraseña
-4. establecer una tarea en cron que se ejecute cada hora para mantener
-actualizado el contenido del directorio /var/www entre las dos máquinas
+* Hay que llevar a cabo las siguientes tareas básicas:
+    1. probar el funcionamiento de la copia de archivos por ssh
+    2. clonado de una carpeta entre las dos máquinas
+    3. configuración de ssh para acceder sin que solicite contraseña
+    4. establecer una tarea en cron que se ejecute cada hora para mantener actualizado el contenido del directorio /var/www entre las dos máquinas
 **Opcionalmente, tareas más avanzadas como:**
     * Varias opciones de copiar archivos por ssh y scp
     * Utilizar RSync con varias opciones y parámetros
@@ -92,7 +88,8 @@ En esta práctica el objetivo es configurar una máquina como servidor NFS y que
     1. Configurar una máquina como servidor de disco NFS y exportar una carpeta a los clientes.
     2. Montar en las máquinas cliente la carpeta exportada por el servidor.
     3. Comprobar que todas las máquinas pueden acceder a los archivos almacenados en la carpeta compartida.
-* Adicionalmente, y como tarea avanzada, se propone:
+* **Adicionalmente, y como tarea avanzada, se propone:**
     1. Hacer permanente la configuración en los clientes para que monten automáticamente la carpeta compartida al arrancar el sistema
     2. Añadir configuración de seguridad a la máquina NFS, bloqueando todo el tráfico entrante y permitiendo solo el tráfico necesario para que funcione el servidor NFS en las máquinas M1 y M2.
+    
     
