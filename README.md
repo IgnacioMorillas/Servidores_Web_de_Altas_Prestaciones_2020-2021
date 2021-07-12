@@ -16,6 +16,10 @@ Asignatura cursada en la Universidad de Granada periodo 2020-2021 en la que conf
 
 ## Prácticas
 * **Practica 1:** En esta práctica el objetivo es configurar las máquinas virtuales (al menos dos) para
+<<<<<<< HEAD
+=======
+* Practica 1: En esta práctica el objetivo es configurar las máquinas virtuales (al menos dos) para
+>>>>>>> main
 trabajar en prácticas posteriores, asegurando la conectividad entre dichas máquinas.
 Como resultado de la práctica 1 se mostrarán dos máquinas funcionando al profesor
 (accesos con curl para solicitar páginas web sencillas, acceso por SSH entre ambas
