@@ -21,6 +21,7 @@ Específicamente, hay que llevar a cabo las siguientes tareas:
 1. acceder por ssh de una máquina a otra
 2. acceder mediante la herramienta curl desde una máquina a la otra
 3. mostrar configuraciones de red y opciones de netplan
+![Imagen1](P1.PNG)
 
 ### Practica 2
 En esta [Practica](https://github.com/IgnacioMorillas/Servidores_Web_de_Altas_Prestaciones_2020-2021/blob/main/MorillasPadialIgnacioP2.pdf) el objetivo es configurar las máquinas virtuales para trabajar en modo
@@ -37,6 +38,7 @@ información que hay en la máquina servidora principal.
     * Utilizar RSync con varias opciones y parámetros
     * Configurar ssh para evitar introducir contraseña de manera manual
     * Programar tareas con Crontab con distintas opciones
+![Imagen2](P2.PNG)
 
 
 ### Practica 3
@@ -55,6 +57,7 @@ software.
     3. Instalar y configurar otros balanceadores de carga (Gobetween, Zevenet, Pound, etc.)
     4. Someter la granja web a una alta carga con la herramienta Apache Benchmark considerando los distintos balanceadores instalados y configurados.
     5. Realizar un análisis comparativo de los resultados considerando el número de peticiones por unidad de tiempo
+![Imagen3](P3.PNG)
 
 ### Practica 4
 El objetivo de esta [Practica](https://github.com/IgnacioMorillas/Servidores_Web_de_Altas_Prestaciones_2020-2021/blob/main/MorillasPadialIgnacioP4.pdf) es configurar aspectos relativos a la seguridad de la granja web. Se debe añadir usuarioUGR en las distintas configuraciones e ilustrarlo con capturas de pantalla.
@@ -68,6 +71,7 @@ El objetivo de esta [Practica](https://github.com/IgnacioMorillas/Servidores_Web
     2. Configurar M3 estableciendo reglas de iptables para que sólo M3 sea quien acepte peticiones HTTP y HTTPS mientras que M1 y M2 no acepten peticiones a no ser que sean peticiones provenientes de M3.
     3. Hacer que la configuración del cortafuegos se ejecute al arranque del sistema en todas las máquinas.
     4. Crear, instalar y configurar un certificado SSL con Cerbot u otro.
+![Imagen4](P4.PNG)
 
 ### Practica 5
 En esta [Practica](https://github.com/IgnacioMorillas/Servidores_Web_de_Altas_Prestaciones_2020-2021/blob/main/MorillasPadialIgnacioP5.pdf) el objetivo es configurar las máquinas virtuales para trabajar de forma que se mantenga actualizada la información en una BD entre dos servidores (la máquina secundaria mantendrá siempre actualizada la información que hay en la máquina servidora principal).
@@ -80,6 +84,7 @@ En esta [Practica](https://github.com/IgnacioMorillas/Servidores_Web_de_Altas_Pr
 * **Como tareas avanzadas:**
     1. Además de las tareas básicas
     2. Realizar la configuración maestro-maestro entre las dos máquinas de bases de datos.
+![Imagen5](P5.PNG)
 
 ### Practica 6
 En esta [Practica](https://github.com/IgnacioMorillas/Servidores_Web_de_Altas_Prestaciones_2020-2021/blob/main/MorillasPadialIgnacioP6.pdf) el objetivo es configurar una máquina como servidor NFS y que las dos máquinas servidoras finales (M1 y M2) monten una carpeta exportada como clientes.
@@ -90,5 +95,6 @@ En esta [Practica](https://github.com/IgnacioMorillas/Servidores_Web_de_Altas_Pr
 * **Adicionalmente, y como tarea avanzada, se propone:**
     1. Hacer permanente la configuración en los clientes para que monten automáticamente la carpeta compartida al arrancar el sistema
     2. Añadir configuración de seguridad a la máquina NFS, bloqueando todo el tráfico entrante y permitiendo solo el tráfico necesario para que funcione el servidor NFS en las máquinas M1 y M2.
-    
+![Imagen6](P6.PNG)
+
     
