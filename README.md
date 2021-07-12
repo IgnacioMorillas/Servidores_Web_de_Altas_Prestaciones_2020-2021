@@ -15,19 +15,12 @@ Asignatura cursada en la Universidad de Granada periodo 2020-2021 en la que conf
 * Diseñar un plan de copias de seguridad y recuperación para resolver cualquier problema en el sistema.
 
 ## Prácticas
-<<<<<<< HEAD
 * **Practica 1:** En esta práctica el objetivo es configurar las máquinas virtuales (al menos dos) para
-=======
-* Practica 1: En esta práctica el objetivo es configurar las máquinas virtuales (al menos dos) para
->>>>>>> main
 trabajar en prácticas posteriores, asegurando la conectividad entre dichas máquinas.
 Como resultado de la práctica 1 se mostrarán dos máquinas funcionando al profesor
 (accesos con curl para solicitar páginas web sencillas, acceso por SSH entre ambas
 máquinas, así como configuraciones de red).
-<<<<<<< HEAD
 
-=======
->>>>>>> main
 Específicamente, hay que llevar a cabo las siguientes tareas:
     1. acceder por ssh de una máquina a otra
     2. acceder mediante la herramienta curl desde una máquina a la otra
