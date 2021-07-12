@@ -15,7 +15,7 @@ Asignatura cursada en la Universidad de Granada periodo 2020-2021 en la que conf
 * Diseñar un plan de copias de seguridad y recuperación para resolver cualquier problema en el sistema.
 
 ## Prácticas
-* **Practica 1:** En esta práctica el objetivo es configurar las máquinas virtuales (al menos dos) para
+**Practica 1:** En esta práctica el objetivo es configurar las máquinas virtuales (al menos dos) para
 trabajar en prácticas posteriores, asegurando la conectividad entre dichas máquinas.
 Como resultado de la práctica 1 se mostrarán dos máquinas funcionando al profesor
 (accesos con curl para solicitar páginas web sencillas, acceso por SSH entre ambas
@@ -25,7 +25,7 @@ Específicamente, hay que llevar a cabo las siguientes tareas:
     2. acceder mediante la herramienta curl desde una máquina a la otra
     3. mostrar configuraciones de red y opciones de netplan
 
-* **Practica 2:** En esta práctica el objetivo es configurar las máquinas virtuales para trabajar en modo
+**Practica 2:** En esta práctica el objetivo es configurar las máquinas virtuales para trabajar en modo
 espejo, consiguiendo que una máquina secundaria mantenga siempre actualizada la
 información que hay en la máquina servidora principal.
 
@@ -42,11 +42,25 @@ Opcionalmente, tareas más avanzadas como:
     * Programar tareas con Crontab con distintas opciones
 
 
-* **Practica 3:**
+**Practica 3:** En esta práctica el objetivo es configurar las máquinas virtuales de forma que dos hagan
+de servidores web finales mientras que la tercera haga de balanceador de carga por
+software.
+* En esta práctica se llevarán a cabo las tareas básicas:
+    1. Configurar una máquina e instalar nginx y haproxy como balanceadores de carga con el algoritmo round-robin
+    2. Someter la granja web a una alta carga con la herramienta Apache Benchmark a través de M3, considerando 2 opciones:
+        a) nginx con round-robin
+        b) haproxy con round-robin
+    3. Realizar un análisis comparativo de los resultados considerando el número de peticiones por unidad de tiempo
+* Como opciones avanzadas:
+    1. Configurar nginx y haproxy como balanceadores de carga con ponderación, suponiendo que M1 tiene el doble de capacidad que M2.
+    2. Habilitar el módulo de estadísticas en HAproxy
+    3. Instalar y configurar otros balanceadores de carga (Gobetween, Zevenet, Pound, etc.)
+    4. Someter la granja web a una alta carga con la herramienta Apache Benchmark considerando los distintos balanceadores instalados y configurados.
+    5. Realizar un análisis comparativo de los resultados considerando el número de peticiones por unidad de tiempo
 
-* **Practica 4:**
+**Practica 4:**
 
-* **Practica 5:**
+**Practica 5:**
 
-* **Practica 6:**
+**Practica 6:**
     
