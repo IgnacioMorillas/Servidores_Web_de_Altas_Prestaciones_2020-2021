@@ -16,15 +16,14 @@ Asignatura cursada en la Universidad de Granada periodo 2020-2021 en la que conf
 
 ## Prácticas
 ### Practica 1
-En esta práctica el objetivo es configurar las máquinas virtuales (al menos dos) para trabajar en prácticas posteriores, asegurando la conectividad entre dichas máquinas. Como resultado de la práctica 1 se mostrarán dos máquinas funcionando al profesor (accesos con curl para solicitar páginas web sencillas, acceso por SSH entre ambas máquinas, así como configuraciones de red).
+En esta  [Practica](https://github.com/IgnacioMorillas/Servidores_Web_de_Altas_Prestaciones_2020-2021/blob/main/MorillasPadialIgnacioP1.pdf) el objetivo es configurar las máquinas virtuales (al menos dos) para trabajar en prácticas posteriores, asegurando la conectividad entre dichas máquinas. Como resultado de la práctica 1 se mostrarán dos máquinas funcionando al profesor (accesos con curl para solicitar páginas web sencillas, acceso por SSH entre ambas máquinas, así como configuraciones de red).
 Específicamente, hay que llevar a cabo las siguientes tareas:
-
-    1. acceder por ssh de una máquina a otra
-    2. acceder mediante la herramienta curl desde una máquina a la otra
-    3. mostrar configuraciones de red y opciones de netplan
+1. acceder por ssh de una máquina a otra
+2. acceder mediante la herramienta curl desde una máquina a la otra
+3. mostrar configuraciones de red y opciones de netplan
 
 ### Practica 2
-En esta práctica el objetivo es configurar las máquinas virtuales para trabajar en modo
+En esta [Practica](https://github.com/IgnacioMorillas/Servidores_Web_de_Altas_Prestaciones_2020-2021/blob/main/MorillasPadialIgnacioP2.pdf) el objetivo es configurar las máquinas virtuales para trabajar en modo
 espejo, consiguiendo que una máquina secundaria mantenga siempre actualizada la
 información que hay en la máquina servidora principal.
 
@@ -41,7 +40,7 @@ información que hay en la máquina servidora principal.
 
 
 ### Practica 3
-En esta práctica el objetivo es configurar las máquinas virtuales de forma que dos hagan
+En esta [Practica](https://github.com/IgnacioMorillas/Servidores_Web_de_Altas_Prestaciones_2020-2021/blob/main/MorillasPadialIgnacioP3.pdf) el objetivo es configurar las máquinas virtuales de forma que dos hagan
 de servidores web finales mientras que la tercera haga de balanceador de carga por
 software.
 * En esta práctica se llevarán a cabo las tareas básicas:
@@ -58,7 +57,7 @@ software.
     5. Realizar un análisis comparativo de los resultados considerando el número de peticiones por unidad de tiempo
 
 ### Practica 4
-El objetivo de esta práctica es configurar aspectos relativos a la seguridad de la granja web. Se debe añadir usuarioUGR en las distintas configuraciones e ilustrarlo con capturas de pantalla.
+El objetivo de esta [Practica](https://github.com/IgnacioMorillas/Servidores_Web_de_Altas_Prestaciones_2020-2021/blob/main/MorillasPadialIgnacioP4.pdf) es configurar aspectos relativos a la seguridad de la granja web. Se debe añadir usuarioUGR en las distintas configuraciones e ilustrarlo con capturas de pantalla.
 * En esta práctica se llevarán a cabo las siguientes tareas básicas:
     1. Crear e instalar en la máquina M1 un certificado SSL autofirmado para configurar el acceso HTTPS al servidor. Se debe comprobar que el servidor acepta tanto el tráfico HTTP como el HTTPS.
     2. Copiar al resto de máquinas servidoras (M2) y al balanceador de carga (M3) el certificado autofirmado creado en M1 (archivos .crt y .key) y configurarlas para que acepten tráfico HTTP y HTTPS.
@@ -71,7 +70,7 @@ El objetivo de esta práctica es configurar aspectos relativos a la seguridad de
     4. Crear, instalar y configurar un certificado SSL con Cerbot u otro.
 
 ### Practica 5
-En esta práctica el objetivo es configurar las máquinas virtuales para trabajar de forma que se mantenga actualizada la información en una BD entre dos servidores (la máquina secundaria mantendrá siempre actualizada la información que hay en la máquina servidora principal).
+En esta [Practica](https://github.com/IgnacioMorillas/Servidores_Web_de_Altas_Prestaciones_2020-2021/blob/main/MorillasPadialIgnacioP5.pdf) el objetivo es configurar las máquinas virtuales para trabajar de forma que se mantenga actualizada la información en una BD entre dos servidores (la máquina secundaria mantendrá siempre actualizada la información que hay en la máquina servidora principal).
 * En esta práctica se llevarán a cabo, como tareas básicas:
     1. Crear una BD con al menos una tabla y algunos datos.
     2. Realizar la copia de seguridad de la BD completa usando mysqldump en la máquina principal y copiar el archivo de copia de seguridad a la máquina secundaria.
@@ -83,7 +82,7 @@ En esta práctica el objetivo es configurar las máquinas virtuales para trabaja
     2. Realizar la configuración maestro-maestro entre las dos máquinas de bases de datos.
 
 ### Practica 6
-En esta práctica el objetivo es configurar una máquina como servidor NFS y que las dos máquinas servidoras finales (M1 y M2) monten una carpeta exportada como clientes.
+En esta [Practica](https://github.com/IgnacioMorillas/Servidores_Web_de_Altas_Prestaciones_2020-2021/blob/main/MorillasPadialIgnacioP6.pdf) el objetivo es configurar una máquina como servidor NFS y que las dos máquinas servidoras finales (M1 y M2) monten una carpeta exportada como clientes.
 * Hay que llevar a cabo las siguientes tareas básicas:
     1. Configurar una máquina como servidor de disco NFS y exportar una carpeta a los clientes.
     2. Montar en las máquinas cliente la carpeta exportada por el servidor.
